@@ -2,401 +2,920 @@
  {
   "file": "horse_00.jpg",
   "kind": "horse",
-  "idx": 4,
   "species": "Akhal-Teke",
   "origin": "Turkmenistan",
-  "src": "https://commons.wikimedia.org/wiki/File:Davinia.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Davinia.jpg",
+  "author": "Kerri-Jo Stewart",
+  "license": "CC BY-SA 2.0"
  },
  {
   "file": "horse_01.jpg",
   "kind": "horse",
-  "idx": 22,
   "species": "Appaloosa",
   "origin": "Idaho, USA",
-  "src": "https://commons.wikimedia.org/wiki/File:GiGiAppaloosa.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:GiGiAppaloosa.jpg",
+  "author": "Tina M",
+  "license": "CC BY 2.0"
  },
  {
   "file": "horse_02.jpg",
   "kind": "horse",
-  "idx": 31,
   "species": "Arabian",
   "origin": "Arabian Peninsula",
-  "src": "https://commons.wikimedia.org/wiki/File:Arabian_Side_Saddle_Class_(2486184089).jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Arabian_Side_Saddle_Class_(2486184089).jpg",
+  "author": "Heather Moreton from Louisville, KY, USA",
+  "license": "CC BY 2.0"
  },
  {
   "file": "horse_03.jpg",
   "kind": "horse",
-  "idx": 40,
   "species": "Camargue",
   "origin": "Camargue, France",
-  "src": "https://commons.wikimedia.org/wiki/File:Camargue_horse_tvoekler2007.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Camargue_horse_tvoekler2007.jpg",
+  "author": "T.Voekler",
+  "license": "CC BY-SA 3.0"
  },
  {
   "file": "horse_04.jpg",
   "kind": "horse",
-  "idx": 45,
   "species": "Clydesdale",
   "origin": "Lanarkshire, Scotland",
-  "src": "https://commons.wikimedia.org/wiki/File:Horses_2.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Horses_2.jpg",
+  "author": "Steve",
+  "license": "CC BY 2.0"
  },
  {
   "file": "horse_05.jpg",
   "kind": "horse",
-  "idx": 50,
   "species": "Exmoor Pony",
   "origin": "Exmoor, England",
-  "src": "https://commons.wikimedia.org/wiki/File:An_Exmoor_Hairstyle.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:An_Exmoor_Hairstyle.jpg",
+  "author": "Mark Robinson",
+  "license": "CC BY 2.0"
  },
  {
   "file": "horse_06.jpg",
   "kind": "horse",
-  "idx": 55,
   "species": "Falabella",
   "origin": "Buenos Aires, Argentina",
-  "src": "https://commons.wikimedia.org/wiki/File:Falabella_Miniature_Horse_in_Shoushan_Zoo.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Falabella_Miniature_Horse_in_Shoushan_Zoo.jpg",
+  "author": "壽山動物園 Shoushan Zoo",
+  "license": "Attribution"
  },
  {
   "file": "horse_07.jpg",
   "kind": "horse",
-  "idx": 65,
   "species": "Norwegian Fjord",
   "origin": "Western Norway",
-  "src": "https://commons.wikimedia.org/wiki/File:Horse05_(8296724423).jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Horse05_(8296724423).jpg",
+  "author": "Korona Lacasse",
+  "license": "CC BY 2.0"
  },
  {
   "file": "horse_08.jpg",
   "kind": "horse",
-  "idx": 74,
   "species": "Friesian",
   "origin": "Friesland, Netherlands",
-  "src": "https://commons.wikimedia.org/wiki/File:Feira_Medieval_Vilela_1.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Feira_Medieval_Vilela_1.jpg",
+  "author": "MunParedes",
+  "license": "CC BY-SA 4.0"
  },
  {
   "file": "horse_09.jpg",
   "kind": "horse",
-  "idx": 82,
   "species": "Gypsy Cob",
   "origin": "Britain & Ireland",
-  "src": "https://commons.wikimedia.org/wiki/File:Tinker_horse_head.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Tinker_horse_head.jpg",
+  "author": "florisla",
+  "license": "CC BY-SA 2.0"
  },
  {
   "file": "horse_10.jpg",
   "kind": "horse",
-  "idx": 93,
   "species": "Haflinger",
   "origin": "South Tyrol",
-  "src": "https://commons.wikimedia.org/wiki/File:Haflinger_Stallion.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Haflinger_Stallion.jpg",
+  "author": "Jean",
+  "license": "CC BY 2.0"
  },
  {
   "file": "horse_11.jpg",
   "kind": "horse",
-  "idx": 101,
   "species": "Icelandic Horse",
   "origin": "Iceland",
-  "src": "https://commons.wikimedia.org/wiki/File:Grey_Icelandic_horse.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Grey_Icelandic_horse.jpg",
+  "author": "Soffía Snæland from Njarðvík, Iceland",
+  "license": "CC BY 2.0"
  },
  {
   "file": "horse_12.jpg",
   "kind": "horse",
-  "idx": 108,
   "species": "Knabstrupper",
   "origin": "Denmark",
-  "src": "https://commons.wikimedia.org/wiki/File:Paardinpoesele_14-08-2009_15-12-37.NEF.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Paardinpoesele_14-08-2009_15-12-37.NEF.jpg",
+  "author": "Paul Hermans",
+  "license": "CC BY-SA 3.0"
  },
  {
   "file": "horse_13.jpg",
   "kind": "horse",
-  "idx": 111,
   "species": "Konik",
   "origin": "Poland",
-  "src": "https://commons.wikimedia.org/wiki/File:Engures_ezera_savva%C4%BCas_zirgi.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Engures_ezera_savva%C4%BCas_zirgi.jpg",
+  "author": "DaceK 86",
+  "license": "CC BY-SA 4.0"
  },
  {
   "file": "horse_14.jpg",
   "kind": "horse",
-  "idx": 116,
   "species": "Lipizzaner",
   "origin": "Lipica, Slovenia",
-  "src": "https://commons.wikimedia.org/wiki/File:Austria-01106_-_Resting_(21463132948).jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Austria-01106_-_Resting_(21463132948).jpg",
+  "author": "Dennis G. Jarvis",
+  "license": "CC BY-SA 2.0"
  },
  {
   "file": "horse_15.jpg",
   "kind": "horse",
-  "idx": 128,
   "species": "Lusitano",
   "origin": "Alentejo, Portugal",
-  "src": "https://commons.wikimedia.org/wiki/File:Lusitano.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Lusitano.jpg",
+  "author": "Hydro at German Wikipedia (Original text: Hydro)",
+  "license": "CC BY-SA 3.0"
  },
  {
   "file": "horse_16.jpg",
   "kind": "horse",
-  "idx": 133,
   "species": "Mangalarga Marchador",
   "origin": "Minas Gerais, Brazil",
-  "src": "https://commons.wikimedia.org/wiki/File:Mangalarga_Marchador1.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Mangalarga_Marchador1.jpg",
+  "author": "Jose Roberto",
+  "license": "CC BY 2.0"
  },
  {
   "file": "horse_17.jpg",
   "kind": "horse",
-  "idx": 137,
   "species": "Marwari",
   "origin": "Rajasthan, India",
-  "src": "https://commons.wikimedia.org/wiki/File:0E3A2796_Tentpegging.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Zubedeia-_Marwari_Mare.jpg",
+  "author": "Heather Moreton",
+  "license": "CC BY 2.0"
  },
  {
   "file": "horse_18.jpg",
   "kind": "horse",
-  "idx": 146,
   "species": "Mongolian Horse",
   "origin": "Mongolia",
-  "src": "https://commons.wikimedia.org/wiki/File:Horse_race_in_mongolian_steppes.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Horse_race_in_mongolian_steppes.jpg",
+  "author": "Tengis Bilegsaikhan from Milan, Italy",
+  "license": "CC BY 2.0"
  },
  {
   "file": "horse_19.jpg",
   "kind": "horse",
-  "idx": 157,
   "species": "Mustang",
   "origin": "Nevada, USA",
-  "src": "https://commons.wikimedia.org/wiki/File:Arizona_2004_Mustangs.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Arizona_2004_Mustangs.jpg",
+  "author": "John Harwood",
+  "license": "CC BY 2.0"
  },
  {
   "file": "horse_20.jpg",
   "kind": "horse",
-  "idx": 182,
   "species": "Paint Horse",
   "origin": "Texas, USA",
-  "src": "https://commons.wikimedia.org/wiki/File:Remedys_Sweet_Reward_APHA_light_eye.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Remedys_Sweet_Reward_APHA_light_eye.jpg",
+  "author": "Just chaos",
+  "license": "CC BY 2.0"
  },
  {
   "file": "horse_21.jpg",
   "kind": "horse",
-  "idx": 195,
   "species": "Przewalski's Horse",
   "origin": "Mongolian Steppe",
-  "src": "https://commons.wikimedia.org/wiki/File:Przewalskifohlen2.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Przewalskifohlen2.jpg",
+  "author": "--Xocolatl 22:39, 22 February 2007 (UTC)",
+  "license": "Public domain"
  },
  {
   "file": "horse_22.jpg",
   "kind": "horse",
-  "idx": 210,
   "species": "Shetland Pony",
   "origin": "Shetland Isles",
-  "src": "https://commons.wikimedia.org/wiki/File:Flehmendes_Shetland-Pony.JPG"
+  "commons": "https://commons.wikimedia.org/wiki/File:Flehmendes_Shetland-Pony.JPG",
+  "author": "3268zauber",
+  "license": "CC BY-SA 3.0"
  },
  {
   "file": "horse_23.jpg",
   "kind": "horse",
-  "idx": 221,
   "species": "Shire",
   "origin": "England",
-  "src": "https://commons.wikimedia.org/wiki/File:Shirehead.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Shirehead.jpg",
+  "author": "Squeezyboy",
+  "license": "CC BY 2.0"
  },
  {
   "file": "horse_24.jpg",
   "kind": "horse",
-  "idx": 233,
   "species": "Suffolk Punch",
   "origin": "Suffolk, England",
-  "src": "https://commons.wikimedia.org/wiki/File:SuffolkHead.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:SuffolkHead.jpg",
+  "author": "Squeezyboy from UK",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "horse_25.jpg",
+  "kind": "horse",
+  "species": "Akhal-Teke",
+  "origin": "Turkmenistan",
+  "commons": "https://commons.wikimedia.org/wiki/File:Akhal_Teke_Stallion_-_GErald_(2836432954).jpg",
+  "author": "Heather Moreton from Louisville, KY, USA",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "horse_26.jpg",
+  "kind": "horse",
+  "species": "Quarter Horse",
+  "origin": "Oklahoma, USA",
+  "commons": "https://commons.wikimedia.org/wiki/File:GoldChampagne.jpg",
+  "author": "Cook D, Brooks S, Bellone R, Bailey E.",
+  "license": "CC BY-SA 3.0"
+ },
+ {
+  "file": "horse_27.jpg",
+  "kind": "horse",
+  "species": "Appaloosa",
+  "origin": "Idaho, USA",
+  "commons": "https://commons.wikimedia.org/wiki/File:AppySmalSpot.jpg",
+  "author": "bankerssilvermoon",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "horse_28.jpg",
+  "kind": "horse",
+  "species": "Arabian",
+  "origin": "Arabian Peninsula",
+  "commons": "https://commons.wikimedia.org/wiki/File:Arabian_Costume_Horse_(2486993460).jpg",
+  "author": "Heather Moreton from Louisville, KY, USA",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "horse_29.jpg",
+  "kind": "horse",
+  "species": "Ardennais",
+  "origin": "Ardennes, Belgium",
+  "commons": "https://commons.wikimedia.org/wiki/File:0_%C3%89talon_ardennais_-_St-Michel_(2).JPG",
+  "author": "Marie-Claire",
+  "license": "CC BY 3.0"
+ },
+ {
+  "file": "horse_30.jpg",
+  "kind": "horse",
+  "species": "Camargue",
+  "origin": "Camargue, France",
+  "commons": "https://commons.wikimedia.org/wiki/File:Camargue_Jument_et_son_poulain.jpg",
+  "author": "ell brown",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "horse_31.jpg",
+  "kind": "horse",
+  "species": "Falabella",
+  "origin": "Buenos Aires, Argentina",
+  "commons": "https://commons.wikimedia.org/wiki/File:Baileyphoto2.jpg",
+  "author": "Crystal Holt",
+  "license": "CC BY-SA 3.0"
+ },
+ {
+  "file": "horse_32.jpg",
+  "kind": "horse",
+  "species": "Fell Pony",
+  "origin": "Cumbria, England",
+  "commons": "https://commons.wikimedia.org/wiki/File:Fellpony_Longstreamlet_Kim.jpg",
+  "author": "Thomas Lunzer | lunzer.de",
+  "license": "CC BY-SA 3.0"
+ },
+ {
+  "file": "horse_33.jpg",
+  "kind": "horse",
+  "species": "Norwegian Fjord",
+  "origin": "Western Norway",
+  "commons": "https://commons.wikimedia.org/wiki/File:T%C3%AAte_d%27une_jument_Fjord.jpg",
+  "author": "Tsaag Valren",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "horse_34.jpg",
+  "kind": "horse",
+  "species": "Gypsy Cob",
+  "origin": "Britain & Ireland",
+  "commons": "https://commons.wikimedia.org/wiki/File:Friendly_horse_(4518733275).jpg",
+  "author": "AnemoneProjectors (talk) (Flickr)",
+  "license": "CC BY-SA 2.0"
+ },
+ {
+  "file": "horse_35.jpg",
+  "kind": "horse",
+  "species": "Haflinger",
+  "origin": "South Tyrol",
+  "commons": "https://commons.wikimedia.org/wiki/File:Haflinger_(25364968250).jpg",
+  "author": "Luc.T from Buggenhout, België",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "horse_36.jpg",
+  "kind": "horse",
+  "species": "Icelandic Horse",
+  "origin": "Iceland",
+  "commons": "https://commons.wikimedia.org/wiki/File:Caballo_Islandes_(10454921533).jpg",
+  "author": "Javier Rodríguez from Palma de Mallorca, España",
+  "license": "CC BY-SA 2.0"
+ },
+ {
+  "file": "horse_37.jpg",
+  "kind": "horse",
+  "species": "Knabstrupper",
+  "origin": "Denmark",
+  "commons": "https://commons.wikimedia.org/wiki/File:Knabstrubber_at_the_kentucky_horse_park.jpg",
+  "author": "Heather Moreton",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "horse_38.jpg",
+  "kind": "horse",
+  "species": "Mangalarga Marchador",
+  "origin": "Minas Gerais, Brazil",
+  "commons": "https://commons.wikimedia.org/wiki/File:Mangalarga_Marchador_Conforma%C3%A7%C3%A3o.jpg",
+  "author": "No machine-readable author provided. Pbicalho assumed (based on copyright claims).",
+  "license": "CC BY-SA 2.5"
+ },
+ {
+  "file": "horse_39.jpg",
+  "kind": "horse",
+  "species": "Nokota",
+  "origin": "North Dakota, USA",
+  "commons": "https://commons.wikimedia.org/wiki/File:Blue-Moon-Roan-Nokota-Stallion-2.png",
+  "author": "Blue-Moon-Roan-Nokota-Stallion.jpg: Seth Zeigler derivative work: Pitke (talk)",
+  "license": "CC BY-SA 3.0"
+ },
+ {
+  "file": "horse_40.jpg",
+  "kind": "horse",
+  "species": "Orlov Trotter",
+  "origin": "Russia",
+  "commons": "https://commons.wikimedia.org/wiki/File:Orlov_trotter_Final_2.06,5_(Fagot-Arabika)_born_in_Dubrovsky_stud,_Ukraine..jpg",
+  "author": "Natalya Shabur",
+  "license": "CC BY-SA 3.0"
+ },
+ {
+  "file": "horse_41.jpg",
+  "kind": "horse",
+  "species": "Paint Horse",
+  "origin": "Texas, USA",
+  "commons": "https://commons.wikimedia.org/wiki/File:Remedys_Sweet_Reward_APHA.jpg",
+  "author": "Just chaos",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "horse_42.jpg",
+  "kind": "horse",
+  "species": "Paso Fino",
+  "origin": "Puerto Rico",
+  "commons": "https://commons.wikimedia.org/wiki/File:Vesuvio_Bien_Vee_-_Paso_Fino_Bellas_Formas_National_Champion_3_Year_Old_Gelding_in_2001;_photo_taken_in_May_of_2006.JPG",
+  "author": "No machine-readable author provided. Soltera assumed (based on copyright claims).",
+  "license": "CC BY-SA 3.0"
+ },
+ {
+  "file": "horse_43.jpg",
+  "kind": "horse",
+  "species": "Percheron",
+  "origin": "Perche, France",
+  "commons": "https://commons.wikimedia.org/wiki/File:Bernhausen_2015_Pferdemarkt_5.jpg",
+  "author": "Xocolatl",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "horse_44.jpg",
+  "kind": "horse",
+  "species": "Przewalski's Horse",
+  "origin": "Mongolian Steppe",
+  "commons": "https://commons.wikimedia.org/wiki/File:Przewalski%27s_colt_(head).jpg",
+  "author": "Michael Gäbler",
+  "license": "CC BY 3.0"
+ },
+ {
+  "file": "horse_45.jpg",
+  "kind": "horse",
+  "species": "Shetland Pony",
+  "origin": "Shetland Isles",
+  "commons": "https://commons.wikimedia.org/wiki/File:Shetland_pony_-_Copenhagen_Zoo_-_DSC08957.JPG",
+  "author": "Daderot",
+  "license": "CC0"
+ },
+ {
+  "file": "horse_46.jpg",
+  "kind": "horse",
+  "species": "Shire",
+  "origin": "England",
+  "commons": "https://commons.wikimedia.org/wiki/File:Horse_whispers%3F.jpg",
+  "author": "Patricia Foster",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "horse_47.jpg",
+  "kind": "horse",
+  "species": "Sorraia",
+  "origin": "Sorraia Valley, Portugal",
+  "commons": "https://commons.wikimedia.org/wiki/File:Pferde_-_panoramio_(2).jpg",
+  "author": "Andreas Konopka",
+  "license": "CC BY 3.0"
+ },
+ {
+  "file": "horse_48.jpg",
+  "kind": "horse",
+  "species": "Tennessee Walker",
+  "origin": "Tennessee, USA",
+  "commons": "https://commons.wikimedia.org/wiki/File:Tennessee_Walking_Horse10.jpg",
+  "author": "Just chaos",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "horse_49.jpg",
+  "kind": "horse",
+  "species": "Welsh Pony",
+  "origin": "Wales",
+  "commons": "https://commons.wikimedia.org/wiki/File:BlueRoanWelsh.jpg",
+  "author": "BloodySunday",
+  "license": "Public domain"
+ },
+ {
+  "file": "horse_50.jpg",
+  "kind": "horse",
+  "species": "Marwari",
+  "origin": "Rajasthan, India",
+  "commons": "https://commons.wikimedia.org/wiki/File:Marwari_Filly_at_the_Kentucky_Horse_park_(7998150435).jpg",
+  "author": "Heather Moreton from Louisville, KY, USA",
+  "license": "CC BY 2.0"
  },
  {
   "file": "toucan_00.jpg",
   "kind": "toucan",
-  "idx": 259,
   "species": "Grey-breasted Mountain Toucan",
   "origin": "Peruvian Andes",
-  "src": "https://commons.wikimedia.org/wiki/File:Andigena_hypoglauca_hypoglauca_181721273.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Andigena_hypoglauca_hypoglauca_181721273.jpg",
+  "author": "desertnaturalist",
+  "license": "CC BY 4.0"
  },
  {
   "file": "toucan_01.jpg",
   "kind": "toucan",
-  "idx": 264,
   "species": "Plate-billed Mountain Toucan",
   "origin": "Andes, Ecuador",
-  "src": "https://commons.wikimedia.org/wiki/File:Andigena_laminirostris_107818157.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Andigena_laminirostris_107818157.jpg",
+  "author": "Santiago Ron",
+  "license": "CC BY 4.0"
  },
  {
   "file": "toucan_02.jpg",
   "kind": "toucan",
-  "idx": 271,
   "species": "Black-billed Mountain Toucan",
   "origin": "Colombia",
-  "src": "https://commons.wikimedia.org/wiki/File:Andigena_nigrirostris_Terlaque_pechiazul_Black-billed_Mounatin-Toucan_(8720844545).jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Andigena_nigrirostris_Terlaque_pechiazul_Black-billed_Mounatin-Toucan_(8720844545).jpg",
+  "author": "Félix Uribe from Rionegro, Antioquia, Colombia",
+  "license": "CC BY-SA 2.0"
  },
  {
   "file": "toucan_03.jpg",
   "kind": "toucan",
-  "idx": 277,
   "species": "Emerald Toucanet",
   "origin": "Mexico",
-  "src": "https://commons.wikimedia.org/wiki/File:Aulacorhynchus_prasinus_caeruleogularis_SaGeRi_01.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Aulacorhynchus_prasinus_caeruleogularis_SaGeRi_01.jpg",
+  "author": "Cephas",
+  "license": "CC BY-SA 4.0"
  },
  {
   "file": "toucan_04.jpg",
   "kind": "toucan",
-  "idx": 280,
   "species": "Groove-billed Toucanet",
   "origin": "Venezuela",
-  "src": "https://commons.wikimedia.org/wiki/File:Groove_Billed_Toucanet_Aulacorhynchus_sulcatus_(25235435338).jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Groove_Billed_Toucanet_Aulacorhynchus_sulcatus_(25235435338).jpg",
+  "author": "Len Worthington",
+  "license": "CC BY-SA 2.0"
  },
  {
   "file": "toucan_05.jpg",
   "kind": "toucan",
-  "idx": 287,
   "species": "Black-necked Aracari",
   "origin": "Brazil",
-  "src": "https://commons.wikimedia.org/wiki/File:Pteroglossus_aracari_252098938.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Pteroglossus_aracari_252098938.jpg",
+  "author": "Alenilson",
+  "license": "CC BY-SA 4.0"
  },
  {
   "file": "toucan_06.jpg",
   "kind": "toucan",
-  "idx": 289,
   "species": "Saffron Toucanet",
   "origin": "Misiones, Argentina",
-  "src": "https://commons.wikimedia.org/wiki/File:Pteroglossus_bailloni,_captive_(51888927668).jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Pteroglossus_bailloni,_captive_(51888927668).jpg",
+  "author": "Carlos Eduardo Joos",
+  "license": "CC BY 2.0"
  },
  {
   "file": "toucan_07.jpg",
   "kind": "toucan",
-  "idx": 295,
   "species": "Curl-crested Aracari",
   "origin": "Peru",
-  "src": "https://commons.wikimedia.org/wiki/File:Curl-crested_Aracari_at_Woodland_Park_Zoo.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Curl-crested_Aracari_at_Woodland_Park_Zoo.jpg",
+  "author": "Tom Maher",
+  "license": "CC0"
  },
  {
   "file": "toucan_08.jpg",
   "kind": "toucan",
-  "idx": 296,
   "species": "Chestnut-eared Aracari",
   "origin": "Bolivia",
-  "src": "https://commons.wikimedia.org/wiki/File:Chestnut-eared_aracari_(Pteroglossus_castanotis)_Pantanal.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Chestnut-eared_aracari_(Pteroglossus_castanotis)_Pantanal.jpg",
+  "author": "Charles J. Sharp",
+  "license": "CC BY-SA 4.0"
  },
  {
   "file": "toucan_09.jpg",
   "kind": "toucan",
-  "idx": 302,
   "species": "Lettered Aracari",
   "origin": "Amazonia",
-  "src": "https://commons.wikimedia.org/wiki/File:Pteroglossus_inscriptus_-_avocat_-_732342095.jpeg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Pteroglossus_inscriptus_-_avocat_-_732342095.jpeg",
+  "author": "avocat",
+  "license": "CC BY 4.0"
  },
  {
   "file": "toucan_10.jpg",
   "kind": "toucan",
-  "idx": 307,
   "species": "Many-banded Aracari",
   "origin": "Ecuador",
-  "src": "https://commons.wikimedia.org/wiki/File:Many-banded_Aracari,_Ecuador.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Many-banded_Aracari,_Ecuador.jpg",
+  "author": "Patty McGann",
+  "license": "CC BY 2.0"
  },
  {
   "file": "toucan_11.jpg",
   "kind": "toucan",
-  "idx": 315,
   "species": "Collared Aracari",
   "origin": "Panama",
-  "src": "https://commons.wikimedia.org/wiki/File:Collared_Aracari_(47929945793).jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Collared_Aracari_(47929945793).jpg",
+  "author": "Mike's Birds from Riverside, CA, US",
+  "license": "CC BY-SA 2.0"
  },
  {
   "file": "toucan_12.jpg",
   "kind": "toucan",
-  "idx": 318,
   "species": "Green Aracari",
   "origin": "Suriname",
-  "src": "https://commons.wikimedia.org/wiki/File:Pteroglossus_viridis_107978046.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Pteroglossus_viridis_107978046.jpg",
+  "author": "Christoph Moning",
+  "license": "CC BY 4.0"
  },
  {
   "file": "toucan_13.jpg",
   "kind": "toucan",
-  "idx": 323,
   "species": "Toucan",
   "origin": "The Neotropics",
-  "src": "https://commons.wikimedia.org/wiki/File:Canto_Tucano.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Canto_Tucano.jpg",
+  "author": "Júlio C Costa",
+  "license": "CC BY 4.0"
  },
  {
   "file": "toucan_14.jpg",
   "kind": "toucan",
-  "idx": 326,
   "species": "Yellow-throated Toucan",
   "origin": "Costa Rica",
-  "src": "https://commons.wikimedia.org/wiki/File:Yellow-throated_toucan_the_nest_nature_center_4.18.25_DSC_2011-topaz-rawdenoise.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Yellow-throated_toucan_the_nest_nature_center_4.18.25_DSC_2011-topaz-rawdenoise.jpg",
+  "author": "lwolfartist",
+  "license": "CC BY 2.0"
  },
  {
   "file": "toucan_15.jpg",
   "kind": "toucan",
-  "idx": 334,
   "species": "Choco Toucan",
   "origin": "Choco, Ecuador",
-  "src": "https://commons.wikimedia.org/wiki/File:Choco_Toucan_2_JCB.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Choco_Toucan_2_JCB.jpg",
+  "author": "Joseph C Boone",
+  "license": "CC BY-SA 4.0"
  },
  {
   "file": "toucan_16.jpg",
   "kind": "toucan",
-  "idx": 340,
   "species": "Red-breasted Toucan",
   "origin": "Atlantic Forest, Brazil",
-  "src": "https://commons.wikimedia.org/wiki/File:Ramphastos_dicolorus4.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Ramphastos_dicolorus4.jpg",
+  "author": "Dario Sanches from São Paulo, Brasil",
+  "license": "CC BY-SA 2.0"
  },
  {
   "file": "toucan_17.jpg",
   "kind": "toucan",
-  "idx": 343,
   "species": "Keel-billed Toucan",
   "origin": "Belize",
-  "src": "https://commons.wikimedia.org/wiki/File:Keel-billed_toucan_in_Costa_Rica_02.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Keel-billed_toucan_in_Costa_Rica_02.jpg",
+  "author": "Bernard Gagnon",
+  "license": "CC0"
  },
  {
   "file": "toucan_18.jpg",
   "kind": "toucan",
-  "idx": 344,
   "species": "Keel-billed Toucan",
   "origin": "Belize",
-  "src": "https://commons.wikimedia.org/wiki/File:Keel-billed_toucan_in_Costa_Rica_03.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Keel-billed_toucan_in_Costa_Rica_03.jpg",
+  "author": "Bernard Gagnon",
+  "license": "CC0"
  },
  {
   "file": "toucan_19.jpg",
   "kind": "toucan",
-  "idx": 350,
   "species": "Toco Toucan",
   "origin": "Brazil / Pantanal",
-  "src": "https://commons.wikimedia.org/wiki/File:003_(7)_HORA_DO_ALMO%C3%87O.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:003_(7)_HORA_DO_ALMO%C3%87O.jpg",
+  "author": "ROBERTO MACHADO PENNA",
+  "license": "CC BY-SA 3.0"
  },
  {
   "file": "toucan_20.jpg",
   "kind": "toucan",
-  "idx": 353,
   "species": "White-throated Toucan",
   "origin": "Guyana",
-  "src": "https://commons.wikimedia.org/wiki/File:Ramphastos_tucanus_(intergrade)_-Brazil-8a.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Ramphastos_tucanus_(intergrade)_-Brazil-8a.jpg",
+  "author": "Ana_Cotta",
+  "license": "CC BY 2.0"
  },
  {
   "file": "toucan_21.jpg",
   "kind": "toucan",
-  "idx": 357,
   "species": "Channel-billed Toucan",
   "origin": "Amazonia",
-  "src": "https://commons.wikimedia.org/wiki/File:Tucano_de_Bico_Preto_(Ramphastos_Vitellinus),_Brazil._(6219613778).jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Tucano_de_Bico_Preto_(Ramphastos_Vitellinus),_Brazil._(6219613778).jpg",
+  "author": "AleNunes",
+  "license": "CC BY-SA 2.0"
  },
  {
   "file": "toucan_22.jpg",
   "kind": "toucan",
-  "idx": 359,
   "species": "Channel-billed Toucan",
   "origin": "Amazonia",
-  "src": "https://commons.wikimedia.org/wiki/File:Ramphastos_vitellinus_-_Gabriela_Piovesan_-_719932148.jpeg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Ramphastos_vitellinus_-_Gabriela_Piovesan_-_719932148.jpeg",
+  "author": "Gabriela Piovesan",
+  "license": "CC BY 4.0"
  },
  {
   "file": "toucan_23.jpg",
   "kind": "toucan",
-  "idx": 362,
   "species": "Spot-billed Toucanet",
   "origin": "Parana, Brazil",
-  "src": "https://commons.wikimedia.org/wiki/File:Selenidera_maculirostris_342312485.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Selenidera_maculirostris_342312485.jpg",
+  "author": "Laura Gaudette",
+  "license": "CC BY 4.0"
  },
  {
   "file": "toucan_24.jpg",
   "kind": "toucan",
-  "idx": 366,
   "species": "Golden-collared Toucanet",
   "origin": "Peru",
-  "src": "https://commons.wikimedia.org/wiki/File:Selenidera_reinwardtii_langsdorfii_-_Golden-collared_toucanet_(female);_Careiro,_Amazonas,_Brazil.jpg"
+  "commons": "https://commons.wikimedia.org/wiki/File:Selenidera_reinwardtii_langsdorfii_-_Golden-collared_toucanet_(female);_Careiro,_Amazonas,_Brazil.jpg",
+  "author": "Hector Bottai",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "toucan_25.jpg",
+  "kind": "toucan",
+  "species": "Grey-breasted Mountain Toucan",
+  "origin": "Peruvian Andes",
+  "commons": "https://commons.wikimedia.org/wiki/File:Andigena_hipoglauca_Terlaque_andino_Grey-breasted_Mountain-Toucan_(8610841709).jpg",
+  "author": "Félix Uribe from Rionegro, Antioquia, Colombia",
+  "license": "CC BY-SA 2.0"
+ },
+ {
+  "file": "toucan_26.jpg",
+  "kind": "toucan",
+  "species": "Plate-billed Mountain Toucan",
+  "origin": "Andes, Ecuador",
+  "commons": "https://commons.wikimedia.org/wiki/File:Plate-billed_Mountain-toucan_(47844232321).jpg",
+  "author": "Mike's Birds from Riverside, CA, US",
+  "license": "CC BY-SA 2.0"
+ },
+ {
+  "file": "toucan_27.jpg",
+  "kind": "toucan",
+  "species": "Plate-billed Mountain Toucan",
+  "origin": "Andes, Ecuador",
+  "commons": "https://commons.wikimedia.org/wiki/File:Plate-billed_Mountain-toucan_(47792081302).jpg",
+  "author": "Mike's Birds from Riverside, CA, US",
+  "license": "CC BY-SA 2.0"
+ },
+ {
+  "file": "toucan_28.jpg",
+  "kind": "toucan",
+  "species": "Black-billed Mountain Toucan",
+  "origin": "Colombia",
+  "commons": "https://commons.wikimedia.org/wiki/File:Tuc%C3%A1n_celeste_o_terlaque_pechiazul_(32120847563).jpg",
+  "author": "Actividad Cultural Banco de la República",
+  "license": "CC BY-SA 2.0"
+ },
+ {
+  "file": "toucan_29.jpg",
+  "kind": "toucan",
+  "species": "Emerald Toucanet",
+  "origin": "Mexico",
+  "commons": "https://commons.wikimedia.org/wiki/File:Aulacorhynchus_prasinus_-perching_on_branch-8a.jpg",
+  "author": "Brian Gratwicke",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "toucan_30.jpg",
+  "kind": "toucan",
+  "species": "Groove-billed Toucanet",
+  "origin": "Venezuela",
+  "commons": "https://commons.wikimedia.org/wiki/File:Aulacorhynchus_sulcatus_-Aragua_State_-Venezuela-8_(cropped).jpg",
+  "author": "Cristóbal Alvarado Minic",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "toucan_31.jpg",
+  "kind": "toucan",
+  "species": "Black-necked Aracari",
+  "origin": "Brazil",
+  "commons": "https://commons.wikimedia.org/wiki/File:Ara%C3%A7ari_do_bico_amarelo.jpg",
+  "author": "Ana Lauff",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "toucan_32.jpg",
+  "kind": "toucan",
+  "species": "Curl-crested Aracari",
+  "origin": "Peru",
+  "commons": "https://commons.wikimedia.org/wiki/File:Curl-crested_aracari_villars.jpg",
+  "author": "JNguyenFlohic",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "toucan_33.jpg",
+  "kind": "toucan",
+  "species": "Curl-crested Aracari",
+  "origin": "Peru",
+  "commons": "https://commons.wikimedia.org/wiki/File:Pteroglossus_beauharnaesii_Parc_des_Oiseaux_21_10_2015_1.jpg",
+  "author": "Vassil",
+  "license": "CC0"
+ },
+ {
+  "file": "toucan_34.jpg",
+  "kind": "toucan",
+  "species": "Chestnut-eared Aracari",
+  "origin": "Bolivia",
+  "commons": "https://commons.wikimedia.org/wiki/File:Chestnut-eared_Ara%C3%A7ari_(Pteroglossus_castanotis)_in_papaya_tree_..._(30649277693).jpg",
+  "author": "Bernard DUPONT from FRANCE",
+  "license": "CC BY-SA 2.0"
+ },
+ {
+  "file": "toucan_35.jpg",
+  "kind": "toucan",
+  "species": "Chestnut-eared Aracari",
+  "origin": "Bolivia",
+  "commons": "https://commons.wikimedia.org/wiki/File:Pteroglossus_castanotis_381955348.jpg",
+  "author": "Hugo Hulsberg",
+  "license": "CC0"
+ },
+ {
+  "file": "toucan_36.jpg",
+  "kind": "toucan",
+  "species": "Lettered Aracari",
+  "origin": "Amazonia",
+  "commons": "https://commons.wikimedia.org/wiki/File:Pteroglossus_inscriptus_249078801.jpg",
+  "author": "Vincent A. Vos",
+  "license": "CC BY 4.0"
+ },
+ {
+  "file": "toucan_37.jpg",
+  "kind": "toucan",
+  "species": "Many-banded Aracari",
+  "origin": "Ecuador",
+  "commons": "https://commons.wikimedia.org/wiki/File:Flickr_Many_banded_aracari.jpg",
+  "author": "Geoff Gallice from Gainesville, FL, USAOsado: crop",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "toucan_38.jpg",
+  "kind": "toucan",
+  "species": "Collared Aracari",
+  "origin": "Panama",
+  "commons": "https://commons.wikimedia.org/wiki/File:Collared_Aracari_(16387903637).jpg",
+  "author": "Mike's Birds from Riverside, CA, US",
+  "license": "CC BY-SA 2.0"
+ },
+ {
+  "file": "toucan_39.jpg",
+  "kind": "toucan",
+  "species": "Green Aracari",
+  "origin": "Suriname",
+  "commons": "https://commons.wikimedia.org/wiki/File:Pteroglossus_viridis_-Kakegawa_Kacho-en,_Kakegawa,_Shizuoka,_Japan_-male-8a_(1).jpg",
+  "author": "TANAKA Juuyoh (田中十洋)",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "toucan_40.jpg",
+  "kind": "toucan",
+  "species": "Keel-billed Toucan",
+  "origin": "Costa Rica",
+  "commons": "https://commons.wikimedia.org/wiki/File:Toucans_in_Riviera_Maya.jpg",
+  "author": "Grand Velas Riviera Maya",
+  "license": "CC BY-SA 2.0"
+ },
+ {
+  "file": "toucan_41.jpg",
+  "kind": "toucan",
+  "species": "Yellow-throated Toucan",
+  "origin": "Costa Rica",
+  "commons": "https://commons.wikimedia.org/wiki/File:Yellow-throated_toucan_the_nest_nature_center_4.18.25_DSC_2014-topaz-rawdenoise.jpg",
+  "author": "lwolfartist",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "toucan_42.jpg",
+  "kind": "toucan",
+  "species": "Yellow-throated Toucan",
+  "origin": "Costa Rica",
+  "commons": "https://commons.wikimedia.org/wiki/File:Yellow-throated_toucan_the_nest_nature_center_4.18.25_DSC_2059-topaz-rawdenoise.jpg",
+  "author": "lwolfartist",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "toucan_43.jpg",
+  "kind": "toucan",
+  "species": "Choco Toucan",
+  "origin": "Choco, Ecuador",
+  "commons": "https://commons.wikimedia.org/wiki/File:Ramphastos_brevis_57825172.jpg",
+  "author": "desertnaturalist",
+  "license": "CC BY 4.0"
+ },
+ {
+  "file": "toucan_44.jpg",
+  "kind": "toucan",
+  "species": "Red-breasted Toucan",
+  "origin": "Atlantic Forest, Brazil",
+  "commons": "https://commons.wikimedia.org/wiki/File:Ramphastos_dicolorus_-_Daniel_S._Katz_-_478137366.jpeg",
+  "author": "Daniel S. Katz",
+  "license": "CC BY 4.0"
+ },
+ {
+  "file": "toucan_45.jpg",
+  "kind": "toucan",
+  "species": "Red-breasted Toucan",
+  "origin": "Atlantic Forest, Brazil",
+  "commons": "https://commons.wikimedia.org/wiki/File:Flickr_-_Dario_Sanches_-_TUCANO-DE-BICO-VERDE_(Ramphastos_dicolorus).jpg",
+  "author": "Dario Sanches from SÃO PAULO, BRASIL",
+  "license": "CC BY-SA 2.0"
+ },
+ {
+  "file": "toucan_46.jpg",
+  "kind": "toucan",
+  "species": "Toco Toucan",
+  "origin": "Brazil / Pantanal",
+  "commons": "https://commons.wikimedia.org/wiki/File:060404_toco_toucan_c_IG.jpg",
+  "author": "Lip Kee Yap",
+  "license": "CC BY-SA 2.0"
+ },
+ {
+  "file": "toucan_47.jpg",
+  "kind": "toucan",
+  "species": "White-throated Toucan",
+  "origin": "Guyana",
+  "commons": "https://commons.wikimedia.org/wiki/File:Iwokrama_Rainforest,_Guyana_(12178653855).jpg",
+  "author": "M M from Switzerland",
+  "license": "CC BY-SA 2.0"
+ },
+ {
+  "file": "toucan_48.jpg",
+  "kind": "toucan",
+  "species": "Channel-billed Toucan",
+  "origin": "Amazonia",
+  "commons": "https://commons.wikimedia.org/wiki/File:Channel-billed_Toucan_in_the_Rain_-_Flickr_-_treegrow.jpg",
+  "author": "Katja Schulz from Washington, D. C., USA",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "toucan_49.jpg",
+  "kind": "toucan",
+  "species": "Golden-collared Toucanet",
+  "origin": "Peru",
+  "commons": "https://commons.wikimedia.org/wiki/File:Selenidera_reinwardtii_langsdorfii_-_Golden-collared_toucanet_(male);_Careiro,_Amazonas,_Brazil.jpg",
+  "author": "Hector Bottai",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "unicorn.jpg",
+  "kind": "horse",
+  "species": "Unicorn (a Lipizzaner, plus a horn)",
+  "origin": "Allegedly Avalon",
+  "commons": "https://commons.wikimedia.org/wiki/File:T%C3%AAte_d%27un_Lipizzan,_Vienne_-_Stallburg.jpg",
+  "note": "Base photograph is a Lipizzaner; the spiral horn was drawn and composited in.",
+  "author": "Pymouss",
+  "license": "CC BY-SA 4.0"
  }
 ]

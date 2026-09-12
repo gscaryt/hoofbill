@@ -50,13 +50,16 @@ header{ flex:0 0 auto; padding:12px 18px 6px; display:flex; align-items:center; 
 }
 .brand .tag{ font-size:.6rem; letter-spacing:1.6px; text-transform:uppercase;
   color:rgba(247,238,220,.36); margin-left:9px; white-space:nowrap; }
-.hdr-btn{
-  width:34px; height:34px; border-radius:50%; flex-shrink:0;
-  background:rgba(247,238,220,.08); border:1px solid rgba(247,238,220,.14);
-  color:rgba(247,238,220,.72); font-size:.95rem; cursor:pointer;
-  display:flex; align-items:center; justify-content:center; transition:background .18s;
+.lang{ display:flex; gap:6px; flex-shrink:0; }
+.flag{
+  width:30px; height:30px; padding:0; border-radius:50%; overflow:hidden; cursor:pointer;
+  background:transparent; border:1.5px solid rgba(247,238,220,.22);
+  opacity:.45; transition:opacity .18s, border-color .18s, transform .12s;
+  display:block; line-height:0;
 }
-.hdr-btn:active{ background:rgba(247,238,220,.2); }
+.flag svg{ width:100%; height:100%; display:block; }
+.flag:active{ transform:scale(.92); }
+.flag.on{ opacity:1; border-color:var(--gold); box-shadow:0 0 0 1px rgba(232,163,61,.35); }
 
 /* ── FILTER CHIPS ───────────────────────────────────────── */
 .filters{ flex:0 0 auto; display:flex; gap:7px; padding:6px 18px 10px; }
@@ -91,7 +94,7 @@ header{ flex:0 0 auto; padding:12px 18px 6px; display:flex; align-items:center; 
 .card.settle{ transition:transform .3s cubic-bezier(.3,1.4,.5,1); }
 
 .photo{ flex:1 1 auto; min-height:0; position:relative; background:#1c1410; }
-.photo img{ width:100%; height:100%; object-fit:cover; display:block; }
+.photo img{ width:100%; height:100%; object-fit:cover; object-position:50% 26%; display:block; }
 .photo::after{
   content:''; position:absolute; inset:0; pointer-events:none;
   background:linear-gradient(to bottom, rgba(0,0,0,.34) 0%, transparent 22%, transparent 42%, rgba(12,7,4,.86) 100%);
@@ -127,6 +130,7 @@ header{ flex:0 0 auto; padding:12px 18px 6px; display:flex; align-items:center; 
   margin-top:5px; font-size:.78rem; color:rgba(255,255,255,.9); font-weight:600;
   text-shadow:0 1px 8px rgba(0,0,0,.6);
 }
+.hero .sp .sx{ opacity:.75; font-weight:700; margin-left:2px; }
 .hero .or{ font-size:.72rem; color:rgba(255,255,255,.68); margin-top:2px;
   text-shadow:0 1px 8px rgba(0,0,0,.6); }
 
@@ -300,13 +304,10 @@ header{ flex:0 0 auto; padding:12px 18px 6px; display:flex; align-items:center; 
   100%{ opacity:0; transform:translate(var(--dx),var(--dy)) scale(1.25); }
 }
 
-/* ── ABOUT ──────────────────────────────────────────────── */
-#about .panel{ padding:26px 22px 30px; }
-#about h2{ font-family:'Iowan Old Style',Palatino,Georgia,serif; font-size:1.7rem; }
-#about p{ font-size:.9rem; line-height:1.65; margin-top:12px; color:var(--ink2); }
-#about ul{ margin:12px 0 0 18px; font-size:.88rem; line-height:1.75; color:var(--ink2); }
-#about .panel{ border-radius:24px; max-height:90%; bottom:auto; top:50%;
-  transform:translate(-50%,-50%); width:calc(100% - 36px); max-width:424px; animation:none; }
+/* ── UNICORN ────────────────────────────────────────────── */
+.kindmark.mythical{ background:linear-gradient(100deg,rgba(160,92,196,.88),rgba(214,112,160,.88)); }
+.card.mythical .tg{ background:rgba(160,92,196,.16); color:#6B3187; }
+.gcell.mythical .dot{ background:linear-gradient(135deg,#C07BE0,#E58CB4); }
 
 @media (max-height:700px){
   .hero .nm{ font-size:1.65rem; }
@@ -325,7 +326,27 @@ header{ flex:0 0 auto; padding:12px 18px 6px; display:flex; align-items:center; 
       <h1>Hoofbill</h1>
       <span class="tag">hooves &amp; bills</span>
     </div>
-    <button class="hdr-btn" id="btn-about" title="About">?</button>
+    <div class="lang">
+      <button class="flag" id="lang-en" title="English" aria-label="English">
+        <svg viewBox="0 0 60 40" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <rect width="60" height="40" fill="#012169"/>
+          <path d="M0 0 60 40M60 0 0 40" stroke="#fff" stroke-width="9"/>
+          <path d="M0 0 60 40M60 0 0 40" stroke="#C8102E" stroke-width="4.5"/>
+          <path d="M30 0V40M0 20H60" stroke="#fff" stroke-width="14"/>
+          <path d="M30 0V40M0 20H60" stroke="#C8102E" stroke-width="8"/>
+        </svg>
+      </button>
+      <button class="flag" id="lang-pt" title="Português (Brasil)" aria-label="Portugues do Brasil">
+        <svg viewBox="0 0 60 42" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <clipPath id="brGlobe"><circle cx="30" cy="21" r="10"/></clipPath>
+          <rect width="60" height="42" fill="#009B3A"/>
+          <path d="M30 3 57 21 30 39 3 21Z" fill="#FEDF00"/>
+          <circle cx="30" cy="21" r="10" fill="#002776"/>
+          <path d="M19 22.4Q30 15 41 21.4" stroke="#fff" stroke-width="2.9" fill="none"
+                clip-path="url(#brGlobe)"/>
+        </svg>
+      </button>
+    </div>
   </header>
 
   <div class="filters">
@@ -367,25 +388,8 @@ header{ flex:0 0 auto; padding:12px 18px 6px; display:flex; align-items:center; 
 <div id="toast"></div>
 
 <div id="sheet"><div class="scrim"></div><div class="panel" id="sheet-panel"></div></div>
-<div id="about" style="position:fixed;inset:0;z-index:61;display:none">
-  <div class="scrim" style="position:absolute;inset:0;background:rgba(8,5,3,.72)"></div>
-  <div class="panel" style="position:absolute;left:50%;background:var(--paper);color:var(--ink);overflow-y:auto">
-    <h2>Hoofbill</h2>
-    <p>Fifty profiles. Twenty-five horses, twenty-five toucans, none of whom asked to be here.</p>
-    <ul>
-      <li>Swipe <b>right</b> or tap ♥ to add someone to your Menagerie.</li>
-      <li>Swipe <b>left</b> or tap ✕ to pass — nothing is lost.</li>
-      <li>↺ undoes the last swipe. Every profile stays in the Field Guide forever.</li>
-      <li>Tap any card to read the whole profile.</li>
-      <li>Arrow keys work too: ← pass, → smitten, ↑ read, U undo.</li>
-    </ul>
-    <p style="font-size:.75rem;opacity:.5;margin-top:18px">Every photograph is a real bird or horse,
-      from Wikimedia Commons. The names, ages and opinions are entirely invented.</p>
-    <div class="sh-act"><button class="btn" id="about-close">Got it</button></div>
-  </div>
-</div>
-
 <script src="profiles.js"></script>
+<script src="pt.js"></script>
 <script>
 (function(){
 'use strict';
@@ -398,6 +402,58 @@ let st = { liked:[], passed:[] };
 try { const raw = localStorage.getItem(KEY); if (raw) st = Object.assign(st, JSON.parse(raw)); }
 catch(e){}
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch(e){} };
+
+/* ── i18n ──────────────────────────────────────────────── */
+const EN = {
+  tagline:'hooves & bills', everyone:'Everyone', horses:'\uD83D\uDC34 Horses', toucans:'\uD83E\uDD9C Toucans',
+  deck:'Deck', menagerie:'Menagerie', guide:'Field Guide',
+  menagerieTitle:'My Menagerie', guideTitle:'Full Field Guide',
+  kept:'kept', keptPlural:'kept',
+  profilesTap:'profiles \u00B7 tap to read',
+  smitten:'Smitten', notToday:'Not today',
+  tapMore:'tap to read the rest',
+  horse:'\uD83D\uDC34 Horse', toucan:'\uD83E\uDD9C Toucan', unicorn:'\uD83E\uDD84 Unicorn',
+  emptyAll:'everyone', emptyHorse:'every horse', emptyToucan:'every toucan',
+  emptyTitle:"That's ", emptyBody1:'You kept ', emptyBody2:" of them. Nothing is ever really gone \u2014 the Field Guide still has all ",
+  againBtn:'Another look at the ones I passed', galBtn:'Browse the Field Guide',
+  backThey:'Back they come \u2014 no hard feelings',
+  joined:' joined your menagerie', removed:' removed', isBack:' is back',
+  blankLib1:'Nothing kept yet', blankLib2:' in this filter', blankLib3:'.',
+  blankLib4:'Swipe right on someone \u2014 or keep them straight from the Field Guide.',
+  keep:'Keep ', remove:'Remove from menagerie',
+  credit1:'Photograph: Wikimedia Commons. ', credit2:' Name and biography invented.',
+  creditUni:'Photograph: Wikimedia Commons (a Lipizzaner). The horn was added. Obviously.',
+  statHeight:'Height', statBill:'Bill', statHorn:'Horn',
+  mare:'Mare', stallion:'Stallion', female:'Female', male:'Male',
+  undo:'Undo', pass:'Pass', like:'Smitten', readMore:'Read more'
+};
+let lang = 'en';
+try { lang = localStorage.getItem('hoofbill.lang') === 'pt' ? 'pt' : 'en'; } catch(e){}
+const U = k => (lang === 'pt' && PT.ui[k] != null) ? PT.ui[k] : EN[k];
+
+function ptStat(stat){
+  const m = /^(\d+)\.(\d)\s*hh$/.exec(stat[1]);
+  if (stat[0] === 'Height') return [U('statHeight'), m ? Math.round(m[1]*10.16 + m[2]*2.54) + ' cm' : stat[1]];
+  if (stat[0] === 'Bill')   return [U('statBill'), stat[1]];
+  if (stat[0] === 'Horn')   return [U('statHorn'), stat[1]];
+  return stat;
+}
+function sexGlyph(p){ return p.sex === 'f' ? '\u2640' : '\u2642'; }
+function sexLabel(p){
+  if (p.kind === 'horse') return U(p.sex === 'f' ? 'mare' : 'stallion');
+  return U(p.sex === 'f' ? 'female' : 'male');
+}
+
+/* localised view of a profile — name and age are never translated */
+function L(p){
+  if (lang === 'en') return p;
+  const o = (typeof PT !== 'undefined' && PT.p[p.id]) || {};
+  return Object.assign({}, p, {
+    species: o.species || p.species, origin: o.origin || p.origin,
+    bio: o.bio || p.bio, tags: o.tags || p.tags, prompt: o.prompt || p.prompt,
+    stat: ptStat(p.stat)
+  });
+}
 
 let filter = 'all';
 let queue = [];
@@ -427,34 +483,35 @@ function refreshCounts(){
   else                       test = p => !seen(p.id);
   ['all','horse','toucan'].forEach(k => { $('#c-' + k).textContent = of(k, test); });
   const nLib = PROFILES.filter(p => isLiked(p.id) && inFilter(p)).length;
-  $('#lib-count').textContent = nLib === 1 ? '1 kept' : nLib + ' kept';
-  $('#gal-count').textContent = PROFILES.filter(inFilter).length + ' profiles · tap to read';
-  $('#tab-lib').textContent = st.liked.length ? 'Menagerie ' + st.liked.length : 'Menagerie';
+  $('#lib-count').textContent = nLib + ' ' + (nLib === 1 ? U('kept') : U('keptPlural'));
+  $('#gal-count').textContent = PROFILES.filter(inFilter).length + ' ' + U('profilesTap');
+  $('#tab-lib').textContent = st.liked.length ? U('menagerie') + ' ' + st.liked.length : U('menagerie');
 }
 
 /* ── deck rendering ────────────────────────────────────── */
 const wrap = $('#deck-wrap');
 
-function cardHTML(p){
-  const kindLabel = p.kind === 'horse' ? '🐴 Horse' : '🦜 Toucan';
+function cardHTML(p0){
+  const p = L(p0);
+  const kindLabel = p0.mythical ? U('unicorn') : p0.kind === 'horse' ? U('horse') : U('toucan');
   return `
     <div class="photo">
-      <span class="kindmark ${p.kind}">${kindLabel}</span>
+      <span class="kindmark ${p0.mythical ? 'mythical' : p.kind}">${kindLabel}</span>
       <span class="statmark"><span class="sl">${p.stat[0]}</span><span class="sv">${p.stat[1]}</span></span>
       <img src="${p.img}" alt="${p.species}" draggable="false">
       <div class="hero">
         <div class="nm">${p.name}<span class="ag">${p.age}</span></div>
-        <div class="sp">${p.species}</div>
+        <div class="sp">${p.species} <span class="sx">${sexGlyph(p0)}</span></div>
         <div class="or">📍 ${p.origin}</div>
       </div>
     </div>
     <div class="foot">
       <div class="bio">${p.bio}</div>
       <div class="tags">${p.tags.map(t => `<span class="tg">${t}</span>`).join('')}</div>
-      <div class="more">tap to read the rest</div>
+      <div class="more">${U('tapMore')}</div>
     </div>
-    <div class="stamp yes">Smitten</div>
-    <div class="stamp no">Not today</div>`;
+    <div class="stamp yes">${U('smitten')}</div>
+    <div class="stamp no">${U('notToday')}</div>`;
 }
 
 function renderDeck(){
@@ -464,7 +521,7 @@ function renderDeck(){
   for (let i = top3.length - 1; i >= 0; i--){
     const p = byId[top3[i]];
     const el = document.createElement('div');
-    el.className = 'card ' + p.kind + (i ? ' c' + i : '');
+    el.className = 'card ' + p.kind + (p.mythical ? ' mythical' : '') + (i ? ' c' + i : '');
     el.dataset.id = p.id;
     el.innerHTML = cardHTML(p);
     wrap.appendChild(el);
@@ -477,24 +534,23 @@ function renderDeck(){
 
 function renderEmpty(){
   const anyPassed = st.passed.some(id => inFilter(byId[id]));
-  const label = filter === 'all' ? 'everyone' : filter === 'horse' ? 'every horse' : 'every toucan';
+  const label = filter === 'all' ? U('emptyAll') : filter === 'horse' ? U('emptyHorse') : U('emptyToucan');
   const div = document.createElement('div');
   div.className = 'empty';
   div.innerHTML = `
     <div class="em">${filter === 'toucan' ? '🦜' : filter === 'horse' ? '🐴' : '🌾'}</div>
-    <h2>That's ${label}.</h2>
-    <p>You kept <b>${st.liked.filter(id => inFilter(byId[id])).length}</b> of them.
-       Nothing is ever really gone — the Field Guide still has all fifty.</p>
+    <h2>${U('emptyTitle')}${label}.</h2>
+    <p>${U('emptyBody1')}<b>${st.liked.filter(id => inFilter(byId[id])).length}</b>${U('emptyBody2')}${PROFILES.filter(inFilter).length}.</p>
     <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center">
-      ${anyPassed ? `<button class="btn" id="e-again">Another look at the ones I passed</button>` : ''}
-      <button class="btn ghost" id="e-gal">Browse the Field Guide</button>
+      ${anyPassed ? `<button class="btn" id="e-again">${U('againBtn')}</button>` : ''}
+      <button class="btn ghost" id="e-gal">${U('galBtn')}</button>
     </div>`;
   wrap.appendChild(div);
   const again = $('#e-again');
   if (again) again.onclick = () => {
     st.passed = st.passed.filter(id => !inFilter(byId[id]));
     save(); refreshCounts(); buildQueue(); renderDeck();
-    toast('Back they come — no hard feelings');
+    toast(U('backThey'));
   };
   $('#e-gal').onclick = () => go('gal');
 }
@@ -577,7 +633,7 @@ function decide(id, action){
   if (history.length > 60) history.shift();
   st.passed = st.passed.filter(x => x !== id);
   st.liked  = st.liked.filter(x => x !== id);
-  if (action === 'like'){ st.liked.push(id); toast('💛 ' + p.name + ' joined your menagerie'); }
+  if (action === 'like'){ st.liked.push(id); toast('💛 ' + p.name + U('joined')); }
   else st.passed.push(id);
   save();
   queue = queue.filter(x => x !== id);
@@ -593,7 +649,7 @@ function undo(){
   save();
   if (inFilter(byId[h.id]) && queue.indexOf(h.id) === -1) queue.unshift(h.id);
   refreshCounts(); renderDeck();
-  toast('↺ ' + byId[h.id].name + ' is back');
+  toast('↺ ' + byId[h.id].name + U('isBack'));
 }
 
 function swipeTop(dir){
@@ -603,8 +659,9 @@ function swipeTop(dir){
 }
 
 /* ── grids ─────────────────────────────────────────────── */
-function cell(p){
-  return `<div class="gcell ${p.kind}${isLiked(p.id) ? ' liked' : ''}" data-id="${p.id}">
+function cell(p0){
+  const p = L(p0);
+  return `<div class="gcell ${p0.mythical ? 'mythical ' : ''}${p.kind}${isLiked(p.id) ? ' liked' : ''}" data-id="${p.id}">
     <span class="dot"></span>
     <span class="heart">♥</span>
     <img src="${p.img}" alt="${p.species}" loading="lazy">
@@ -617,8 +674,8 @@ function renderLib(){
   $('#lib-grid').innerHTML = list.map(cell).join('');
   $('#lib-blank').innerHTML = list.length ? '' :
     `<div class="blank"><span class="em">🪺</span>
-     Nothing kept yet${filter === 'all' ? '' : ' in this filter'}.<br>
-     Swipe right on someone — or keep them straight from the Field Guide.</div>`;
+     ${U('blankLib1')}${filter === 'all' ? '' : U('blankLib2')}${U('blankLib3')}<br>
+     ${U('blankLib4')}</div>`;
 }
 
 function renderGal(){
@@ -633,8 +690,9 @@ document.addEventListener('click', e => {
 
 /* ── detail sheet ──────────────────────────────────────── */
 function openSheet(id){
-  const p = byId[id];
-  if (!p) return;
+  const p0 = byId[id];
+  if (!p0) return;
+  const p = L(p0);
   const liked = isLiked(id);
   $('#sheet-panel').innerHTML = `
     <div class="sh-photo">
@@ -644,9 +702,10 @@ function openSheet(id){
     <div class="sh-body">
       <div class="sh-name">${p.name}<span class="ag">${p.age}</span></div>
       <div class="sh-meta">
-        <span class="mpill">${p.kind === 'horse' ? '🐴' : '🦜'} <b>${p.species}</b></span>
+        <span class="mpill">${p0.mythical ? '🦄' : p.kind === 'horse' ? '🐴' : '🦜'} <b>${p.species}</b></span>
         <span class="mpill">📍 ${p.origin}</span>
         <span class="mpill">${p.stat[0]} <b>${p.stat[1]}</b></span>
+        <span class="mpill">${sexGlyph(p0)} <b>${sexLabel(p0)}</b></span>
       </div>
       <div class="sh-bio">${p.bio}</div>
       <div class="rule"></div>
@@ -654,22 +713,22 @@ function openSheet(id){
       <div class="sh-tags">${p.tags.map(t => `<span class="tg">${t}</span>`).join('')}</div>
       <div class="sh-act">
         <button class="btn ${liked ? 'unlike' : 'like'}" id="sh-like">
-          ${liked ? '✕  Remove from menagerie' : '♥  Keep ' + p.name}
+          ${liked ? '✕  ' + U('remove') : '♥  ' + U('keep') + p.name}
         </button>
       </div>
-      <div class="credit">Photograph: Wikimedia Commons. ${p.species}. Name and biography invented.</div>
+      <div class="credit">${p0.mythical ? U('creditUni') : U('credit1') + p.species + '.' + U('credit2')}</div>
     </div>`;
   $('#sheet').classList.add('open');
   $('#sh-x').onclick = closeSheet;
   $('#sh-like').onclick = () => {
     if (isLiked(id)){
       st.liked = st.liked.filter(x => x !== id);
-      toast(p.name + ' removed');
+      toast(p.name + U('removed'));
     } else {
       st.liked.push(id);
       st.passed = st.passed.filter(x => x !== id);
       queue = queue.filter(x => x !== id);
-      toast('💛 ' + p.name + ' joined your menagerie');
+      toast('💛 ' + p.name + U('joined'));
     }
     save(); refreshCounts();
     if (screen === 'lib') renderLib(); else if (screen === 'gal') renderGal();
@@ -679,11 +738,6 @@ function openSheet(id){
 }
 function closeSheet(){ $('#sheet').classList.remove('open'); }
 $('#sheet').querySelector('.scrim').onclick = closeSheet;
-
-/* ── about ─────────────────────────────────────────────── */
-$('#btn-about').onclick = () => { $('#about').style.display = 'block'; };
-$('#about-close').onclick = () => { $('#about').style.display = 'none'; };
-$('#about').querySelector('.scrim').onclick = () => { $('#about').style.display = 'none'; };
 
 /* ── toast ─────────────────────────────────────────────── */
 let toastT;
@@ -732,7 +786,43 @@ document.addEventListener('keydown', e => {
   if (e.key === 'u' || e.key === 'U') undo();
 });
 
+/* ── static UI strings ─────────────────────────────────── */
+function applyUI(){
+  document.documentElement.lang = lang === 'pt' ? 'pt-BR' : 'en';
+  $('.brand .tag').textContent = U('tagline');
+  const chips = document.querySelectorAll('.chip');
+  const labels = [U('everyone'), U('horses'), U('toucans')];
+  chips.forEach((c, i) => {
+    const n = c.querySelector('.ct');
+    c.textContent = labels[i] + ' ';
+    c.appendChild(n);
+  });
+  const tabs = document.querySelectorAll('.tab .tl');
+  tabs[0].textContent = U('deck');
+  tabs[2].textContent = U('guide');
+  $('#s-lib .sec-head h2').textContent = U('menagerieTitle');
+  $('#s-gal .sec-head h2').textContent = U('guideTitle');
+  $('#a-undo').title = U('undo'); $('#a-no').title = U('pass');
+  $('#a-yes').title = U('like'); $('#a-info').title = U('readMore');
+  $('#lang-en').classList.toggle('on', lang === 'en');
+  $('#lang-pt').classList.toggle('on', lang === 'pt');
+}
+
+function setLang(next){
+  if (next === lang) return;
+  lang = next;
+  try { localStorage.setItem('hoofbill.lang', lang); } catch(e){}
+  applyUI(); refreshCounts();
+  renderDeck();                       // always: cards off-screen must not go stale
+  if (screen === 'lib') renderLib();
+  if (screen === 'gal') renderGal();
+  if ($('#sheet').classList.contains('open')) closeSheet();
+}
+$('#lang-en').onclick = () => setLang('en');
+$('#lang-pt').onclick = () => setLang('pt');
+
 /* ── go ────────────────────────────────────────────────── */
+applyUI();
 refreshCounts();
 buildQueue();
 renderDeck();

@@ -1,12 +1,17 @@
 # 🐴 Hoofbill 🦜
 
 A swipe-'em-up for people who find horses and toucans genuinely fascinating.
-Fifty profiles — twenty-five horses, twenty-five toucans — each with a real
+**102 profiles** — 51 horses, 50 toucans and one unicorn — each with a real
 photograph, an invented name, an age nobody verified, and a biography that is
 frankly none of your business.
 
 Swipe right on the ones you like. They go in your **Menagerie**. Swipe left on
 the ones you don't. Nothing bad happens. It is a birthday present, not a moral test.
+
+**Available in English and Brazilian Portuguese** — tap the flag in the top right.
+Everything translates except the names, which are the same in both languages
+because Bartolomé is Bartolomé. Every profile has a sex (shown as ♂/♀), so the
+Portuguese adjectives agree properly rather than defaulting to masculine.
 
 ## Playing it
 
@@ -20,19 +25,21 @@ internet connection needed once the folder is on your machine.
 | Tap ↺ | Undo the last swipe |
 | Tap the card, or ⓘ | Read the full profile |
 | ← → ↑ U | The same four things, on a keyboard |
+| 🇬🇧 / 🇧🇷 | Switch language |
 
 Three tabs along the bottom:
 
 - **Deck** — the swiping.
 - **Menagerie** — everyone you kept. Tap one to read them again or let them go.
-- **Field Guide** — all fifty, always, whether you swiped on them or not.
+- **Field Guide** — all 102, always, whether you swiped on them or not.
 
 The three chips at the top filter everything at once: **Everyone**, **Horses only**,
-**Toucans only**. The little number next to each chip tells you how many you're
-looking at on the current tab.
+**Toucans only**. The number on each chip is how many you're looking at on the
+current tab. The unicorn files itself under Horses, which is his position and he
+is sticking to it.
 
-Your Menagerie is saved in the browser's local storage, so it survives closing
-the tab. It lives only on that device, in that browser.
+Your Menagerie and your language choice are saved in the browser's local storage,
+so they survive closing the tab. They live only on that device, in that browser.
 
 > **On iPhone/iPad:** iOS won't run JavaScript from a local file opened through
 > Files, Mail or OneDrive — the app will look frozen. Host the folder somewhere
@@ -42,9 +49,10 @@ the tab. It lives only on that device, in that browser.
 ## What's in here
 
 ```
-index.html          the whole app — layout, styling, swipe logic
-profiles.js         the cast: 50 profiles, easy to edit or extend
-img/                50 photographs, pre-cropped to 4:5, ~6 MB total
+index.html          the whole app — layout, styling, swipe logic, i18n
+profiles.js         the cast, in English: 102 profiles, easy to edit or extend
+pt.js               the Brazilian Portuguese strings, keyed by profile id
+img/                102 photographs, pre-cropped to 4:5, ~12 MB total
 image-credits.json  which Wikimedia Commons file each photo came from
 ```
 
@@ -53,22 +61,43 @@ image-credits.json  which Wikimedia Commons file each photo came from
 Every profile is one object in `profiles.js`:
 
 ```js
-{id:'h25', kind:'horse', img:'img/horse_25.jpg', name:'Doreen', age:11,
- species:'Nokota', origin:'North Dakota, USA',
- stat:['Height','14.2 hh'],
+{id:'h51', sex:'f', kind:'horse', img:'img/horse_51.jpg', name:'Doreen', age:11,
+ species:'Hanoverian', origin:'Lower Saxony',
+ stat:['Height','16.1 hh'],
  bio:"Two sentences of nonsense.",
  tags:['Tag one','Tag two','Tag three'],
  prompt:['A prompt heading','The answer to it.']}
 ```
 
-Drop a 4:5 image into `img/`, add the object, reload. `kind` must be
-`'horse'` or `'toucan'` — that's what drives the filters and the colour accents.
+Drop a 4:5 image into `img/`, add the object, reload. `kind` must be `'horse'` or
+`'toucan'` — that drives the filters and the colour accents. Add `mythical:true`
+for anything that isn't strictly real; it gets the purple treatment.
+
+`sex` is `'m'` or `'f'`. It shows as ♂/♀ on the card, and it matters: Portuguese
+inflects adjectives, so Dolly is *acabada* while Douglas would be *acabado*. If you
+add a profile, set the sex first and write the Portuguese to agree with it.
+
+For the Portuguese version, add a matching entry to `pt.js` under the same id with
+`species`, `origin`, `bio`, `tags` and `prompt`. Heights in hands are converted to
+centimetres automatically, so don't translate the `stat` field. A profile with no
+Portuguese entry simply falls back to English rather than breaking.
 
 ## Where the pictures came from
 
-All fifty are real animals, sourced from Wikimedia Commons and cropped to a
-consistent 4:5. `image-credits.json` maps every file back to its Commons page.
-A couple carry the photographer's own watermark, which has been left alone.
+All of them are real animals sourced from Wikimedia Commons and cropped to a
+consistent 4:5. `image-credits.json` lists, for every file, the Commons page, the
+photographer and the licence.
+
+Commons only hosts freely licensed material, so every photo here is CC BY, CC BY-SA,
+CC0 or public domain — reuse is fine as long as the credit travels with it, which is
+what that file is for. A few images carry the photographer's own watermark, which has
+been left alone. The app itself credits Wikimedia Commons on each profile.
+
+Everything that isn't a photograph — the code, the names, the biographies — is mine
+to give away, so treat it as yours.
+
+The one exception is Steve, whose horn was drawn and composited on. He maintains
+it is not glued on. The credits file says otherwise.
 
 The names, ages, opinions, grudges and unresolved feelings about geese are
 entirely invented.
