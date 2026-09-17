@@ -917,5 +917,455 @@
   "note": "Base photograph is a Lipizzaner; the spiral horn was drawn and composited in.",
   "author": "Pymouss",
   "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "cow_00.jpg",
+  "kind": "cow",
+  "species": "Holstein Friesian",
+  "origin": "Friesland, Netherlands",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ABlack-and-white_cow_gaze.jpg",
+  "author": "Tom Igodt",
+  "license": "CC BY 4.0"
+ },
+ {
+  "file": "cow_01.jpg",
+  "kind": "cow",
+  "species": "Jersey",
+  "origin": "Jersey, Channel Islands",
+  "commons": "https://commons.wikimedia.org/wiki/File%3AJersey_Cow_2015.jpg",
+  "author": "Unukorno",
+  "license": "CC BY 4.0"
+ },
+ {
+  "file": "cow_02.jpg",
+  "kind": "cow",
+  "species": "Guernsey",
+  "origin": "Guernsey, Channel Islands",
+  "commons": "https://commons.wikimedia.org/wiki/File%3AGuernsey_Dairy_Cow.jpg",
+  "author": "boliyou",
+  "license": "CC BY-SA 2.0"
+ },
+ {
+  "file": "cow_03.jpg",
+  "kind": "cow",
+  "species": "Brown Swiss",
+  "origin": "Canton of Schwyz, Switzerland",
+  "commons": "https://commons.wikimedia.org/wiki/File%3AKuh_in_den_Alpen_-_panoramio.jpg",
+  "author": "Leo Moser",
+  "license": "CC BY-SA 3.0"
+ },
+ {
+  "file": "cow_04.jpg",
+  "kind": "cow",
+  "species": "Hereford",
+  "origin": "Herefordshire, England",
+  "commons": "https://commons.wikimedia.org/wiki/File%3AA_Hereford_bull_outside_of_Fort_Davis%2C_Texas._%2824745884229%29.jpg",
+  "author": "USDA NRCS Texas",
+  "license": "Public domain"
+ },
+ {
+  "file": "cow_05.jpg",
+  "kind": "cow",
+  "species": "Charolais",
+  "origin": "Charolles, France",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ACharolais_Stier_davor_Kalb_im_Gras.JPG",
+  "author": "4028mdk09",
+  "license": "CC BY-SA 3.0"
+ },
+ {
+  "file": "cow_06.jpg",
+  "kind": "cow",
+  "species": "Limousin",
+  "origin": "Limousin, France",
+  "commons": "https://commons.wikimedia.org/wiki/File%3A.Veau_du_Limousin.jpg",
+  "author": "Shannon McGee",
+  "license": "CC BY-SA 2.0"
+ },
+ {
+  "file": "cow_07.jpg",
+  "kind": "cow",
+  "species": "Simmental",
+  "origin": "Simme Valley, Switzerland",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ASimmental_cattle_head_at_SPACE_2017.jpg",
+  "author": "Tsaag Valren",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "cow_08.jpg",
+  "kind": "cow",
+  "species": "Highland",
+  "origin": "Scottish Highlands",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ADolly_the_Highland_Cow_%289270548851%29.jpg",
+  "author": "David Whelan",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "cow_09.jpg",
+  "kind": "cow",
+  "species": "Belted Galloway",
+  "origin": "Galloway, Scotland",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ABelted_Galloway_cow_J3.jpg",
+  "author": "Jamain",
+  "license": "CC BY-SA 3.0"
+ },
+ {
+  "file": "cow_10.jpg",
+  "kind": "cow",
+  "species": "Texas Longhorn",
+  "origin": "Texas, USA",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ABrown_and_White_Longhorn_cow_in_Texas.jpg",
+  "author": "Jan from El Paso, Texas, USA",
+  "license": "CC BY-SA 2.0"
+ },
+ {
+  "file": "cow_11.jpg",
+  "kind": "cow",
+  "species": "Brahman",
+  "origin": "Texas, USA",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ABrahman_Thai_cow.jpg",
+  "author": "PumpkinSky",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "cow_12.jpg",
+  "kind": "cow",
+  "species": "Gir",
+  "origin": "Gujarat, India",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ACow%2C_breed_Gir_in_Balacan%2C_Mexico.jpg",
+  "author": "Cvmontuy",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "cow_13.jpg",
+  "kind": "cow",
+  "species": "Chianina",
+  "origin": "Val di Chiana, Italy",
+  "commons": "https://commons.wikimedia.org/wiki/File%3AChianina_Bulle.jpg",
+  "author": "Peter von Wesendonk at German Wikipedia",
+  "license": "Public domain"
+ },
+ {
+  "file": "cow_14.jpg",
+  "kind": "cow",
+  "species": "Glan",
+  "origin": "Rhineland-Palatinate, Germany",
+  "commons": "https://commons.wikimedia.org/wiki/File%3AGlanrind_IMG_4305.jpg",
+  "author": "Fischer.H",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "cow_15.jpg",
+  "kind": "cow",
+  "species": "Marchigiana",
+  "origin": "Marche, Italy",
+  "commons": "https://commons.wikimedia.org/wiki/File%3AVaca_Marchigiana.JPG",
+  "author": "Adautomf",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "cow_16.jpg",
+  "kind": "cow",
+  "species": "Romagnola",
+  "origin": "Romagna, Italy",
+  "commons": "https://commons.wikimedia.org/wiki/File%3AVacca_Romagnola_%283611366059%29.jpg",
+  "author": "unit20072007",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "cow_17.jpg",
+  "kind": "cow",
+  "species": "Maremmana",
+  "origin": "Maremma, Italy",
+  "commons": "https://commons.wikimedia.org/wiki/File%3AMaremma_cow.jpg",
+  "author": "Guglielmo Giambartolomei",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "cow_18.jpg",
+  "kind": "cow",
+  "species": "Podolica",
+  "origin": "Basilicata, Italy",
+  "commons": "https://commons.wikimedia.org/wiki/File%3AVacca_Podolica_con_vitello_a_Cancellara.jpg",
+  "author": "Riccardo orl",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "cow_19.jpg",
+  "kind": "cow",
+  "species": "Aubrac",
+  "origin": "Aveyron, France",
+  "commons": "https://commons.wikimedia.org/wiki/File%3APyrenean_Aubrac_cow.jpg",
+  "author": "Steve &amp; Jem Copley from Kuwait, Kuwait",
+  "license": "CC BY-SA 2.0"
+ },
+ {
+  "file": "cow_20.jpg",
+  "kind": "cow",
+  "species": "Gascon",
+  "origin": "Gascony, France",
+  "commons": "https://commons.wikimedia.org/wiki/File%3AGasconne_vache.jpg",
+  "author": "Thomon",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "cow_21.jpg",
+  "kind": "cow",
+  "species": "Normande",
+  "origin": "Normandy, France",
+  "commons": "https://commons.wikimedia.org/wiki/File%3AVache_normande_Morbihan_07.jpg",
+  "author": "Tsaag Valren",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "cow_22.jpg",
+  "kind": "cow",
+  "species": "Vosgienne",
+  "origin": "Vosges, France",
+  "commons": "https://commons.wikimedia.org/wiki/File%3APlan_sur_vache_vosgienne.jpg",
+  "author": "DEFI-Écologique",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "cow_23.jpg",
+  "kind": "cow",
+  "species": "Tyrolean Grey",
+  "origin": "Tyrol, Austria",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ARinder_im_Sulztal_17.jpg",
+  "author": "Burkhard Mücke",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "cow_24.jpg",
+  "kind": "cow",
+  "species": "Dexter",
+  "origin": "County Kerry, Ireland",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ADextercattle%28js%29.jpg",
+  "author": "Jerzy Strzelecki",
+  "license": "CC BY-SA 3.0"
+ },
+ {
+  "file": "cow_25.jpg",
+  "kind": "cow",
+  "species": "Kerry",
+  "origin": "County Kerry, Ireland",
+  "commons": "https://commons.wikimedia.org/wiki/File%3AA_black_calf_in_Ireland.jpg",
+  "author": "Eoin Gardiner",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "cow_26.jpg",
+  "kind": "cow",
+  "species": "Irish Moiled",
+  "origin": "County Antrim, Ireland",
+  "commons": "https://commons.wikimedia.org/wiki/File%3AMudchute_farm_cow.jpg",
+  "author": "Caroline Ford",
+  "license": "CC BY-SA 3.0"
+ },
+ {
+  "file": "cow_27.jpg",
+  "kind": "cow",
+  "species": "British White",
+  "origin": "Norfolk, England",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ANewborn_British_White_Calf.jpg",
+  "author": "PaintHorseGal",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "cow_28.jpg",
+  "kind": "cow",
+  "species": "Red Poll",
+  "origin": "Suffolk, England",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ARed_Poll_Calf.jpg",
+  "author": "Amanda Slater from Coventry, England",
+  "license": "CC BY-SA 2.0"
+ },
+ {
+  "file": "cow_29.jpg",
+  "kind": "cow",
+  "species": "Sussex",
+  "origin": "Sussex, England",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ASussex_cow_front.JPG",
+  "author": "Charlesdrakew",
+  "license": "Public domain"
+ },
+ {
+  "file": "cow_30.jpg",
+  "kind": "cow",
+  "species": "Corriente",
+  "origin": "Northern Mexico",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ACorriente_cattle_white_belly.jpg",
+  "author": "Ellen Levy Finch",
+  "license": "CC BY-SA 3.0"
+ },
+ {
+  "file": "cow_31.jpg",
+  "kind": "cow",
+  "species": "Belgian Blue",
+  "origin": "Wallonia, Belgium",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ABelgische_blauwe_koe.jpg",
+  "author": "joost j. bakker",
+  "license": "CC BY 2.0"
+ },
+ {
+  "file": "cow_32.jpg",
+  "kind": "cow",
+  "species": "Blonde d'Aquitaine",
+  "origin": "Aquitaine, France",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ABlonde_d%27Aquitaine_koe_met_kalf.jpg",
+  "author": "Gouwenaar",
+  "license": "CC0"
+ },
+ {
+  "file": "cow_33.jpg",
+  "kind": "cow",
+  "species": "Japanese Black",
+  "origin": "Hyōgo, Japan",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ATajimagyu1%2C_cropped.jpg",
+  "author": "Japanexperterna",
+  "license": "CC BY-SA 3.0"
+ },
+ {
+  "file": "cow_34.jpg",
+  "kind": "cow",
+  "species": "Ankole-Watusi",
+  "origin": "Great Lakes, Africa",
+  "commons": "https://commons.wikimedia.org/wiki/File%3AAnkole-watusi_Cattle%2C_Sth_Sudan_%2852197305603%29.jpg",
+  "author": "Rod Waddington from Kergunyah, Australia",
+  "license": "CC BY-SA 2.0"
+ },
+ {
+  "file": "cow_35.jpg",
+  "kind": "cow",
+  "species": "Santa Gertrudis",
+  "origin": "Texas, USA",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ASanta_Gertrudis_Mother_and_Calf.jpg",
+  "author": "SantaGertrudisAustralia",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "cow_36.jpg",
+  "kind": "cow",
+  "species": "Finnish Ayrshire",
+  "origin": "Finland",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ACows_by_Kuninkaantie%2C_Sipoo_3.JPG",
+  "author": "Ximonic, Simo Räsänen",
+  "license": "GFDL"
+ },
+ {
+  "file": "cow_37.jpg",
+  "kind": "cow",
+  "species": "Hungarian Grey",
+  "origin": "Hungarian Plain",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ABerlin_Tierpark_Friedrichsfelde_12-2015_img27_Hungarian_Grey_cattle.jpg",
+  "author": "A.Savin",
+  "license": "FAL"
+ },
+ {
+  "file": "cow_38.jpg",
+  "kind": "cow",
+  "species": "Istrian",
+  "origin": "Istria, Croatia",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ABo%C5%A1karin_cattle_-_Krk_leg_P.Cikovac.jpg",
+  "author": "P.Cikovac",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "cow_39.jpg",
+  "kind": "cow",
+  "species": "Randall Lineback",
+  "origin": "Vermont, USA",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ARandall_Bull_Andy.jpg",
+  "author": "CTPhil",
+  "license": "CC0"
+ },
+ {
+  "file": "cow_40.jpg",
+  "kind": "cow",
+  "species": "Tharparkar",
+  "origin": "Sindh, Pakistan",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ATharparkar_02.JPG",
+  "author": "Pavanaja",
+  "license": "CC BY-SA 3.0"
+ },
+ {
+  "file": "cow_41.jpg",
+  "kind": "cow",
+  "species": "Heck",
+  "origin": "Munich, Germany",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ALaufende_schwarze_Kuh.JPG",
+  "author": "4028mdk09",
+  "license": "CC BY-SA 3.0"
+ },
+ {
+  "file": "cow_42.jpg",
+  "kind": "cow",
+  "species": "Caracu",
+  "origin": "Minas Gerais, Brazil",
+  "commons": "https://commons.wikimedia.org/wiki/File%3AVaca_Caracu.jpg",
+  "author": "CarlosMSA72",
+  "license": "CC BY 4.0"
+ },
+ {
+  "file": "cow_43.jpg",
+  "kind": "cow",
+  "species": "Groningen White-Headed",
+  "origin": "Groningen, Netherlands",
+  "commons": "https://commons.wikimedia.org/wiki/File%3AGroninger_koe%2C_De_blaarkop.JPG",
+  "author": "Baykedevries",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "cow_44.jpg",
+  "kind": "cow",
+  "species": "Dutch Belted",
+  "origin": "Netherlands",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ALAKENFELDER_COW%27S_-_panoramio.jpg",
+  "author": "johanvanbetsbrugge",
+  "license": "CC BY 3.0"
+ },
+ {
+  "file": "cow_45.jpg",
+  "kind": "cow",
+  "species": "Rotes Höhenvieh",
+  "origin": "Hesse, Germany",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ADE_Bickenbach_Landbachauen_Rotes_H%C3%B6henvieh_Kuh_Almrose_Portrait.jpg",
+  "author": "Alexander Klink",
+  "license": "CC BY 4.0"
+ },
+ {
+  "file": "cow_46.jpg",
+  "kind": "cow",
+  "species": "Evolène",
+  "origin": "Valais, Switzerland",
+  "commons": "https://commons.wikimedia.org/wiki/File%3AEvol%C3%A8ner_Rind_im_Tierpark_Goldau.jpg",
+  "author": "Pakeha",
+  "license": "CC BY-SA 4.0"
+ },
+ {
+  "file": "cow_47.jpg",
+  "kind": "cow",
+  "species": "Rathi",
+  "origin": "Rajasthan, India",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ARathi_01.JPG",
+  "author": "Pavanaja",
+  "license": "CC BY-SA 3.0"
+ },
+ {
+  "file": "cow_48.jpg",
+  "kind": "cow",
+  "species": "Barrosã",
+  "origin": "Minho, Portugal",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ABarros%C3%A3_cow_PT_%28cropped%29.jpg",
+  "author": "João Manuel Lemos Lima",
+  "license": "CC BY 4.0"
+ },
+ {
+  "file": "cow_49.jpg",
+  "kind": "cow",
+  "species": "Tudanca",
+  "origin": "Cantabria, Spain",
+  "commons": "https://commons.wikimedia.org/wiki/File%3ASpanisches_Rind_IMG_0459-a.jpg",
+  "author": "Christof46",
+  "license": "CC BY-SA 4.0"
  }
 ]

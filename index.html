@@ -13,7 +13,7 @@
   --paper:#F7EEDC; --paper2:#EADCC2; --paper3:#D8C6A6;
   --ink:#2A1E14; --ink2:#5B4634;
   --gold:#E8A33D; --coral:#E2603F; --jade:#35A06E; --sky:#47A9C0; --berry:#C43F52;
-  --hoof:#C98A3E; --bill:#31A374;
+  --hoof:#C98A3E; --bill:#31A374; --horn:#C0563F;
 }
 html,body{ height:100%; }
 body{
@@ -49,7 +49,13 @@ header{ flex:0 0 auto; padding:12px 18px 6px; display:flex; align-items:center; 
   -webkit-background-clip:text; background-clip:text; color:transparent;
 }
 .brand .tag{ font-size:.6rem; letter-spacing:1.6px; text-transform:uppercase;
-  color:rgba(247,238,220,.36); margin-left:9px; white-space:nowrap; }
+  color:rgba(247,238,220,.36); margin-left:9px; white-space:nowrap;
+  min-width:0; overflow:hidden; text-overflow:ellipsis; }
+/* three animals make for a longer tagline — shrink it before it reaches the flags */
+@media (max-width:429px){
+  .brand .tag{ font-size:.52rem; letter-spacing:.9px; margin-left:7px; }
+}
+@media (max-width:359px){ .brand .tag{ display:none; } }
 .lang{ display:flex; gap:6px; flex-shrink:0; }
 .flag{
   width:30px; height:30px; padding:0; border-radius:50%; overflow:hidden; cursor:pointer;
@@ -62,18 +68,22 @@ header{ flex:0 0 auto; padding:12px 18px 6px; display:flex; align-items:center; 
 .flag.on{ opacity:1; border-color:var(--gold); box-shadow:0 0 0 1px rgba(232,163,61,.35); }
 
 /* ── FILTER CHIPS ───────────────────────────────────────── */
-.filters{ flex:0 0 auto; display:flex; gap:7px; padding:6px 18px 10px; }
+.filters{ flex:0 0 auto; display:flex; gap:5px; padding:6px 18px 10px; }
 .chip{
-  flex:1; padding:8px 6px; border-radius:12px; cursor:pointer;
+  flex:1 1 0; min-width:0; padding:8px 3px; border-radius:12px; cursor:pointer;
   background:rgba(247,238,220,.07); border:1px solid rgba(247,238,220,.12);
-  color:rgba(247,238,220,.6); font-size:.78rem; font-weight:600;
-  display:flex; align-items:center; justify-content:center; gap:5px;
+  color:rgba(247,238,220,.6); font-size:.72rem; font-weight:600;
+  display:flex; align-items:center; justify-content:center; gap:4px;
+  white-space:nowrap; letter-spacing:-.1px;
   transition:all .18s;
 }
-.chip .ct{ font-size:.62rem; opacity:.55; font-variant-numeric:tabular-nums; }
+.chip .ct{ font-size:.6rem; opacity:.55; font-variant-numeric:tabular-nums; }
+@media (max-width:389px){ .chip{ font-size:.64rem; padding:8px 2px; }
+  .chip .ct{ font-size:.55rem; } .filters{ gap:4px; padding:6px 12px 10px; } }
 .chip.on{ background:var(--paper); border-color:var(--paper); color:var(--ink); }
 .chip.on.horse{ background:linear-gradient(135deg,#F0C67E,#D9963F); border-color:#D9963F; }
 .chip.on.toucan{ background:linear-gradient(135deg,#7ED7A8,#2E9E6B); border-color:#2E9E6B; }
+.chip.on.cow{ background:linear-gradient(135deg,#EDA089,#B4503C); border-color:#B4503C; }
 
 /* ── SCREENS ────────────────────────────────────────────── */
 .screen{ flex:1 1 auto; min-height:0; display:none; flex-direction:column; }
@@ -108,6 +118,7 @@ header{ flex:0 0 auto; padding:12px 18px 6px; display:flex; align-items:center; 
 }
 .kindmark.horse{ background:rgba(201,138,62,.82); }
 .kindmark.toucan{ background:rgba(49,163,116,.82); }
+.kindmark.cow{ background:rgba(180,80,60,.82); }
 .statmark{
   position:absolute; top:12px; right:12px; z-index:3; text-align:right;
   padding:5px 10px; border-radius:12px; background:rgba(12,7,4,.46);
@@ -146,6 +157,7 @@ header{ flex:0 0 auto; padding:12px 18px 6px; display:flex; align-items:center; 
   background:rgba(42,30,20,.08); color:var(--ink2); letter-spacing:.2px; }
 .card.horse .tg{ background:rgba(201,138,62,.18); color:#7A5220; }
 .card.toucan .tg{ background:rgba(49,163,116,.16); color:#1E6B49; }
+.card.cow .tg{ background:rgba(180,80,60,.17); color:#8A3423; }
 .more{ font-size:.64rem; letter-spacing:1px; text-transform:uppercase; font-weight:700;
   color:rgba(42,30,20,.38); margin-top:9px; text-align:center; }
 
@@ -221,6 +233,7 @@ header{ flex:0 0 auto; padding:12px 18px 6px; display:flex; align-items:center; 
   border-radius:50%; box-shadow:0 0 0 2px rgba(10,6,3,.4); }
 .gcell.horse .dot{ background:var(--hoof); }
 .gcell.toucan .dot{ background:var(--bill); }
+.gcell.cow .dot{ background:var(--horn); }
 
 .sec-head{ padding:4px 18px 10px; display:flex; align-items:baseline; gap:9px; flex:0 0 auto; }
 .sec-head h2{ font-family:'Iowan Old Style',Palatino,Georgia,serif; font-size:1.3rem; font-weight:700; }
@@ -361,6 +374,7 @@ header{ flex:0 0 auto; padding:12px 18px 6px; display:flex; align-items:center; 
     <button class="chip on" data-f="all">Everyone <span class="ct" id="c-all"></span></button>
     <button class="chip horse" data-f="horse">🐴 Horses <span class="ct" id="c-horse"></span></button>
     <button class="chip toucan" data-f="toucan">🦜 Toucans <span class="ct" id="c-toucan"></span></button>
+    <button class="chip cow" data-f="cow">🐄 Cows <span class="ct" id="c-cow"></span></button>
   </div>
 
   <!-- DECK -->
@@ -413,15 +427,18 @@ const save = () => { try { localStorage.setItem(KEY, JSON.stringify(st)); } catc
 
 /* ── i18n ──────────────────────────────────────────────── */
 const EN = {
-  tagline:'hooves & bills', everyone:'Everyone', horses:'\uD83D\uDC34 Horses', toucans:'\uD83E\uDD9C Toucans',
+  tagline:'hooves, bills & horns', everyone:'Everyone', horses:'\uD83D\uDC34 Horses', toucans:'\uD83E\uDD9C Toucans',
+  cows:'\uD83D\uDC04 Cows',
   deck:'Deck', menagerie:'Menagerie', guide:'Field Guide',
   menagerieTitle:'My Menagerie', guideTitle:'Full Field Guide',
   kept:'kept', keptPlural:'kept',
   profilesTap:'profiles \u00B7 tap to read',
   smitten:'Smitten', notToday:'Not today',
   tapMore:'tap to read the rest',
-  horse:'\uD83D\uDC34 Horse', toucan:'\uD83E\uDD9C Toucan', unicorn:'\uD83E\uDD84 Unicorn',
+  horse:'\uD83D\uDC34 Horse', toucan:'\uD83E\uDD9C Toucan', cow:'\uD83D\uDC04 Cow',
+  unicorn:'\uD83E\uDD84 Unicorn',
   emptyAll:'everyone', emptyHorse:'every horse', emptyToucan:'every toucan',
+  emptyCow:'every cow',
   emptyTitle:"That's ", emptyBody1:'You kept ', emptyBody2:" of them. Nothing is ever really gone \u2014 the Field Guide still has all ",
   againBtn:'Another look at the ones I passed', galBtn:'Browse the Field Guide',
   backThey:'Back they come \u2014 no hard feelings',
@@ -431,8 +448,8 @@ const EN = {
   keep:'Keep ', remove:'Remove from menagerie',
   credit1:'Photograph: Wikimedia Commons. ', credit2:' Name and biography invented.',
   creditUni:'Photograph: Wikimedia Commons (a Lipizzaner). The horn was added. Obviously.',
-  statHeight:'Height', statBill:'Bill', statHorn:'Horn',
-  mare:'Mare', stallion:'Stallion', female:'Female', male:'Male',
+  statHeight:'Height', statBill:'Bill', statHorn:'Horn', statWeight:'Weight',
+  mare:'Mare', stallion:'Stallion', cowF:'Cow', bull:'Bull', female:'Female', male:'Male',
   undo:'Undo', pass:'Pass', like:'Smitten', readMore:'Read more'
 };
 let lang = 'en';
@@ -444,11 +461,13 @@ function ptStat(stat){
   if (stat[0] === 'Height') return [U('statHeight'), m ? Math.round(m[1]*10.16 + m[2]*2.54) + ' cm' : stat[1]];
   if (stat[0] === 'Bill')   return [U('statBill'), stat[1]];
   if (stat[0] === 'Horn')   return [U('statHorn'), stat[1]];
+  if (stat[0] === 'Weight') return [U('statWeight'), stat[1]];
   return stat;
 }
 function sexGlyph(p){ return p.sex === 'f' ? '\u2640' : '\u2642'; }
 function sexLabel(p){
   if (p.kind === 'horse') return U(p.sex === 'f' ? 'mare' : 'stallion');
+  if (p.kind === 'cow')   return U(p.sex === 'f' ? 'cowF' : 'bull');
   return U(p.sex === 'f' ? 'female' : 'male');
 }
 
@@ -462,6 +481,9 @@ function L(p){
     stat: ptStat(p.stat)
   });
 }
+
+const KINDS = ['horse','toucan','cow'];
+const KIND_EMOJI = { horse:'\uD83D\uDC34', toucan:'\uD83E\uDD9C', cow:'\uD83D\uDC04' };
 
 let filter = 'all';
 let queue = [];
@@ -489,7 +511,7 @@ function refreshCounts(){
   if (screen === 'lib')      test = p => isLiked(p.id);
   else if (screen === 'gal') test = () => true;
   else                       test = p => !seen(p.id);
-  ['all','horse','toucan'].forEach(k => { $('#c-' + k).textContent = of(k, test); });
+  ['all'].concat(KINDS).forEach(k => { $('#c-' + k).textContent = of(k, test); });
   const nLib = PROFILES.filter(p => isLiked(p.id) && inFilter(p)).length;
   $('#lib-count').textContent = nLib + ' ' + (nLib === 1 ? U('kept') : U('keptPlural'));
   $('#gal-count').textContent = PROFILES.filter(inFilter).length + ' ' + U('profilesTap');
@@ -501,7 +523,7 @@ const wrap = $('#deck-wrap');
 
 function cardHTML(p0){
   const p = L(p0);
-  const kindLabel = p0.mythical ? U('unicorn') : p0.kind === 'horse' ? U('horse') : U('toucan');
+  const kindLabel = p0.mythical ? U('unicorn') : U(p0.kind);
   return `
     <div class="photo">
       <span class="kindmark ${p0.mythical ? 'mythical' : p.kind}">${kindLabel}</span>
@@ -542,11 +564,12 @@ function renderDeck(){
 
 function renderEmpty(){
   const anyPassed = st.passed.some(id => inFilter(byId[id]));
-  const label = filter === 'all' ? U('emptyAll') : filter === 'horse' ? U('emptyHorse') : U('emptyToucan');
+  const label = filter === 'all' ? U('emptyAll')
+    : U('empty' + filter.charAt(0).toUpperCase() + filter.slice(1));
   const div = document.createElement('div');
   div.className = 'empty';
   div.innerHTML = `
-    <div class="em">${filter === 'toucan' ? '🦜' : filter === 'horse' ? '🐴' : '🌾'}</div>
+    <div class="em">${KIND_EMOJI[filter] || '🌾'}</div>
     <h2>${U('emptyTitle')}${label}.</h2>
     <p>${U('emptyBody1')}<b>${st.liked.filter(id => inFilter(byId[id])).length}</b>${U('emptyBody2')}${PROFILES.filter(inFilter).length}.</p>
     <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center">
@@ -717,7 +740,7 @@ function openSheet(id){
     <div class="sh-body">
       <div class="sh-name">${p.name}<span class="ag">${p.age}</span></div>
       <div class="sh-meta">
-        <span class="mpill">${p0.mythical ? '🦄' : p.kind === 'horse' ? '🐴' : '🦜'} <b>${p.species}</b></span>
+        <span class="mpill">${p0.mythical ? '🦄' : KIND_EMOJI[p.kind]} <b>${p.species}</b></span>
         <span class="mpill">📍 ${p.origin}</span>
         <span class="mpill">${p.stat[0]} <b>${p.stat[1]}</b></span>
         <span class="mpill">${sexGlyph(p0)} <b>${sexLabel(p0)}</b></span>
@@ -810,7 +833,7 @@ function applyUI(){
   document.documentElement.lang = lang === 'pt' ? 'pt-BR' : 'en';
   $('.brand .tag').textContent = U('tagline');
   const chips = document.querySelectorAll('.chip');
-  const labels = [U('everyone'), U('horses'), U('toucans')];
+  const labels = [U('everyone'), U('horses'), U('toucans'), U('cows')];
   chips.forEach((c, i) => {
     const n = c.querySelector('.ct');
     c.textContent = labels[i] + ' ';
